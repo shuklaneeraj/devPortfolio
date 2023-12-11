@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Neeraj Shukla",
-  title: "Hi all, I'm Neeraj",
+  title: emoji("Hi all, I'm Neeraj"),
   subTitle: emoji(
-    "A passionate Data Analyst and Software Engineer 🚀 having an experience of Data Analysis, CRM, and Cloud."
+    "A tech enthusiast, software engineer, and data analyst by profession 🚀. I specialize in data-driven solutions, crafting strategies for your business growth 📈 "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/shuklaneeraj",
   linkedin: "https://www.linkedin.com/in/connect2neeraj",
-  gmail: "neerajs@mun.ca",
+  gmail: "neerajshuklasmailbox@gmail.com",
   facebook: "https://www.facebook.com/neeraj.shukla.smarty/",
   // You can add other social media links as needed
   // Medium, Stack Overflow, Instagram, Twitter, Kaggle, etc.
@@ -168,8 +168,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "fals", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // // Some big projects you have worked on
@@ -186,7 +186,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://cryptoslate.com/coins/ecoin/"
+          url: "https://www.linkedin.com/company/ecoinfoundationofficial/about/"
         }
       ]
     },
@@ -222,7 +222,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://trailhead.salesforce.com/credentials/platformdeveloperi"
+          url: "https://www.salesforce.com/trailblazer/nshukla24"
         },
         {
           name: "Preparation Trailmix",
@@ -238,10 +238,10 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+          url: "https://drive.google.com/file/d/1AQwrhR9ghFxrRqJ4YtKVe7H9VZzSOHAa/view?usp=sharing"
         },
         {
-          name: "Training and Certification Details",
+          name: "Certification Details",
           url: "https://www.aws.training/certification"
         }
       ]
@@ -253,7 +253,7 @@ const achievementSection = {
       imageAlt: "Coursera Logo",
       footerLink: [
         // Add the URL if available
-        { name: "Certification", url: "" }
+        { name: "Certification", url: "https://coursera.org/share/e40ba7bad1d79155f3213f457fa2dc98" }
       ]
     },
     {
@@ -263,7 +263,7 @@ const achievementSection = {
       imageAlt: "DXC Logo",
       footerLink: [
         // Add the URL if available
-        { name: "Award Letter", url: "" }
+        { name: "Award Letter", url: "https://drive.google.com/file/d/1EicIk5JSlG454ItGQemOGih5IuVcNviy/view?usp=sharing" }
       ]
     }
   ],
@@ -338,7 +338,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "https://twitter.com/neerajshuklaz", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
