@@ -42,12 +42,12 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
-
 // Skills Section
 
 const skillsSection = {
   title: "Tech Enthusiast",
-  subTitle: "I AM PASSIONATE ABOUT DATA ANALYSIS, DATA SCIENCE, AND BLOCKCHAIN TECHNOLOGIES",
+  subTitle:
+    "I AM PASSIONATE ABOUT DATA ANALYSIS, DATA SCIENCE, AND BLOCKCHAIN TECHNOLOGIES",
   skills: [
     emoji(
       "⚡ Perform Data Analysis and Visualization to derive meaningful insights"
@@ -56,8 +56,12 @@ const skillsSection = {
     emoji(
       "⚡ Develop Blockchain solutions and Smart Contracts for secure transactions"
     ),
-    emoji("⚡ Create interactive Front-end and User Interfaces for applications"),
-    emoji("⚡ Build Progressive Web Applications (PWA) using various tech stacks")
+    emoji(
+      "⚡ Create interactive Front-end and User Interfaces for applications"
+    ),
+    emoji(
+      "⚡ Build Progressive Web Applications (PWA) using various tech stacks"
+    )
   ],
 
   softwareSkills: [
@@ -95,16 +99,16 @@ const educationInfo = {
       logo: "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/306079103_410182247855593_939971049144866396_n.png?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=Y9Bvqb-M2wIAX_ihuMp&_nc_ht=scontent-atl3-1.xx&oh=00_AfBrO4TTKNh1QR1BYhfk8zVigJNZGefrIzjQT1Gyt-uVmw&oe=657A7F7D",
       subHeader: "Master of Science, Computer Science",
       duration: "Sept 2022 - Jul 2024",
-      desc: "GPA: 3.82 / 4.0",
+      desc: "GPA: 3.82 / 4.0"
     },
     {
       schoolName: "Technocrats Institute of Technology Excellence, India",
       logo: "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/294357826_2973368806256982_1580580189585666944_n.jpg?stp=dst-jpg_p480x480&_nc_cat=110&ccb=1-7&_nc_sid=596444&_nc_ohc=EOL1QXje0ygAX85Bi5f&_nc_ht=scontent-atl3-1.xx&oh=00_AfAbxG2fkLcPXncgjFZ6s8tyZf56IxMe5P0bNBiCu4gP3g&oe=657A76A7", // Replace with the actual URL of your university's logo
       subHeader: "Bachelor of Engineering, Computer Science & Engineering",
       duration: "Aug 2016 - Jul 2020",
-      desc: "GPA: 3.30 / 4.0",
-    },
-  ],
+      desc: "GPA: 3.30 / 4.0"
+    }
+  ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -142,27 +146,29 @@ const workExperiences = {
     {
       role: "Data Analyst",
       company: "National Research Council",
-      companylogo: "https://media.licdn.com/dms/image/C560BAQEtmusKSN4L_Q/company-logo_200_200/0/1668707137784/national_research_council_logo?e=1710374400&v=beta&t=faoFv0003knuLxO-RyR8driF1ueq0_-tuCzOuwPV6Sk",
+      companylogo:
+        "https://media.licdn.com/dms/image/C560BAQEtmusKSN4L_Q/company-logo_200_200/0/1668707137784/national_research_council_logo?e=1710374400&v=beta&t=faoFv0003knuLxO-RyR8driF1ueq0_-tuCzOuwPV6Sk",
       date: "Sept 2023 – Present",
       desc: "Managing and analyzing data using Microsoft Excel and Power BI."
     },
     {
       role: "Software Developer",
       company: "Infinite Computer Solutions",
-      companylogo: "https://media.licdn.com/dms/image/D4E0BAQENJsIHQHM8pQ/company-logo_200_200/0/1687442778909/infinite_computer_solutions_logo?e=1710374400&v=beta&t=mWkkVK-97Cu8Q3OIGtaE616LiQQ2Xtzn42xVsyWLYxA",
+      companylogo:
+        "https://media.licdn.com/dms/image/D4E0BAQENJsIHQHM8pQ/company-logo_200_200/0/1687442778909/infinite_computer_solutions_logo?e=1710374400&v=beta&t=mWkkVK-97Cu8Q3OIGtaE616LiQQ2Xtzn42xVsyWLYxA",
       date: "Aug 2022 – Dec 2022",
       desc: "Led Salesforce development project, increasing field service efficiency by 20%."
     },
     {
       role: "Associate Software Developer",
       company: "DXC Technology",
-      companylogo: "https://media.licdn.com/dms/image/C4D0BAQFt7orYWPc9MQ/company-logo_200_200/0/1630537692227/dxctechnology_logo?e=1710374400&v=beta&t=rw3WgYt8XyMOAoVzi-Gg1q2qYm8mZq9BsnEGZOwZt9o",
+      companylogo:
+        "https://media.licdn.com/dms/image/C4D0BAQFt7orYWPc9MQ/company-logo_200_200/0/1630537692227/dxctechnology_logo?e=1710374400&v=beta&t=rw3WgYt8XyMOAoVzi-Gg1q2qYm8mZq9BsnEGZOwZt9o",
       date: "Jul 2020 – Aug 2022",
       desc: "Oversaw design and development of enterprise-level projects for Hewlett Packard Enterprise."
     }
   ]
 };
-
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -180,7 +186,8 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: "https://media.licdn.com/dms/image/C560BAQGUOwGC1Ye3-g/company-logo_200_200/0/1630656523973/ecoinfoundationofficial_logo?e=1710374400&v=beta&t=3ID4MbZBbxWRToUqeTB7E6vUEf__UW9WzvwlEx9HmtQ",
+      image:
+        "https://media.licdn.com/dms/image/C560BAQGUOwGC1Ye3-g/company-logo_200_200/0/1630656523973/ecoinfoundationofficial_logo?e=1710374400&v=beta&t=3ID4MbZBbxWRToUqeTB7E6vUEf__UW9WzvwlEx9HmtQ",
       projectName: "Ecoin Official",
       projectDesc: "Description of your work at Ecoin Official.",
       footerLink: [
@@ -191,7 +198,8 @@ const bigProjects = {
       ]
     },
     {
-      image: "https://media.licdn.com/dms/image/C560BAQFa9aOl5lTC8g/company-logo_200_200/0/1631539666703?e=1710374400&v=beta&t=bSAMyf8FVke3jhIH7LXCuRM77XyHtWDL19h662yr2PI",
+      image:
+        "https://media.licdn.com/dms/image/C560BAQFa9aOl5lTC8g/company-logo_200_200/0/1631539666703?e=1710374400&v=beta&t=bSAMyf8FVke3jhIH7LXCuRM77XyHtWDL19h662yr2PI",
       projectName: "HelloFans",
       projectDesc: "Description of your work at HelloFans.",
       footerLink: [
@@ -205,18 +213,19 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
       title: "Salesforce Platform Developer I",
-      subtitle: "Certification for mastering the skills required to develop custom applications on the Salesforce platform.",
+      subtitle:
+        "Certification for mastering the skills required to develop custom applications on the Salesforce platform.",
       image: require("./assets/images/pd1.webp"), // Local path in the assets/images directory
       imageAlt: "Salesforce Logo",
       footerLink: [
@@ -232,7 +241,8 @@ const achievementSection = {
     },
     {
       title: "Amazon Cloud Practitioner",
-      subtitle: "Certification demonstrating an overall understanding of AWS Cloud, fundamental AWS services, and core architecture.",
+      subtitle:
+        "Certification demonstrating an overall understanding of AWS Cloud, fundamental AWS services, and core architecture.",
       image: require("./assets/images/aws.webp"), // Updated file extension to .webp
       imageAlt: "AWS Logo",
       footerLink: [
@@ -248,22 +258,30 @@ const achievementSection = {
     },
     {
       title: "Coursera Data Analyst",
-      subtitle: "Certification indicating proficiency in data analysis techniques and tools.",
+      subtitle:
+        "Certification indicating proficiency in data analysis techniques and tools.",
       image: require("./assets/images/courseraDA.webp"), // Updated file extension to .webp
       imageAlt: "Coursera Logo",
       footerLink: [
         // Add the URL if available
-        { name: "Certification", url: "https://coursera.org/share/e40ba7bad1d79155f3213f457fa2dc98" }
+        {
+          name: "Certification",
+          url: "https://coursera.org/share/e40ba7bad1d79155f3213f457fa2dc98"
+        }
       ]
     },
     {
       title: "DXC Champ Award",
-      subtitle: "Award recognizing exceptional performance and contributions in technology projects.",
+      subtitle:
+        "Award recognizing exceptional performance and contributions in technology projects.",
       image: require("./assets/images/champaward.webp"), // Updated file extension to .webp
       imageAlt: "DXC Logo",
       footerLink: [
         // Add the URL if available
-        { name: "Award Letter", url: "https://drive.google.com/file/d/1EicIk5JSlG454ItGQemOGih5IuVcNviy/view?usp=sharing" }
+        {
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/1EicIk5JSlG454ItGQemOGih5IuVcNviy/view?usp=sharing"
+        }
       ]
     }
   ],
@@ -283,8 +301,7 @@ const blogSection = {
       title: "AU-EU AI Act and Canada’s AI and Data Act",
       description:
         "A comparative analysis of the AI regulatory frameworks of the European Union and Canada."
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
